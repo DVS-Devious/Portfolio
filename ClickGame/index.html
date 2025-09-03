@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="GameStyle.css">
+    <title>Click Game</title>
+</head>
+
+
+<body>
+    <div class="Cash">
+        <text class="CashAmount" id="Balance">
+            $999.00
+        </text>
+    </div>
+    <div class="ButtonArea">
+        <button class="CashButton" id="CashButton">
+            Click For Cash!
+        </button>
+    </div>
+    <div class="Upgrades">
+        <div class="Upgrade">
+            <div class="UpgradeDetail">
+                <text class="CurrentDetail" id="CashPerClickText">
+                    $1/click
+                </text>
+                <text class="NewDetail">
+                    +$0.20/click
+                </text>
+            </div>
+            <button class="UpgradeButton" id="ClickUpgrade">
+                 <text class="Price">
+                    $10
+                </text>
+            </button>
+        </div>
+        <div class="Upgrade">
+            <div class="UpgradeDetail">
+                <text class="CurrentDetail" id="PassiveCashText">
+                    $0.25/s
+                </text>
+                <text class="NewDetail">
+                    +$0.10/s
+                </text>
+            </div>
+            <button class="UpgradeButton" id="PassiveUpgrade">
+                <text class="Price">
+                    $20
+                </text>
+            </button>
+        </div>
+    </div>
+</body>
+
+</html>
